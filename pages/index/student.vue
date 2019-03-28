@@ -3,10 +3,6 @@
         <image class="logo" src="../../static/logo.png"></image>
 		<view>
             <text class="title">{{title}}</text>
-<<<<<<< HEAD
-=======
-			<text class="content">{{soft1721}}</text>
->>>>>>> 75838bbff53b51870390cd7385166a4e3be71fc6
         </view>
 	</view>
 </template>
@@ -15,8 +11,7 @@
 	export default {
 		data() {
 			return {
-				title: 'Hello',
-				home:'soft1721'
+				title: 'Hello'
 			}
 		},
 		onLoad() {
